@@ -63,10 +63,12 @@ selector{
         background-color: white;
         width: 400px;
         text-align: center;/*centralizar a coluna ou obj*/
-        padding-top: 10px;
+        padding-top: 10px ;
         padding-left: 38px;
         padding-right: 38px;
         padding-bottom: 38px;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+        
 
     }
 
@@ -86,3 +88,63 @@ selector{
         margin-top: 32px;
         text-align: left;
     }
+
+    .rotulo{
+        font-weight: bold ;
+        font-size: 16px;
+        display: block;
+        margin-bottom: 8px;
+    }
+    .campo-texto{
+        width: 100%;
+        font-size: 16px;
+        color: 434343;
+        padding: 7px 13px;
+        margin-bottom: 16px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+    }
+    .botao-reservar{
+        width: 100%;
+        background-color: #ffc107;
+        color: white;
+        line-height: 150% ;
+        padding-top: 6px ;
+        padding-bottom: 6px ;
+        border: none ;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-top: 16px;
+        
+
+    }
+    #col2{
+        width: 800px;
+        margin-left: 39px;
+    }
+
+    .oferta{
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+
+    }
+    .destaque{
+        color: #445EE5;
+
+    }
+    .texto-oferta{
+        font-size: 18px;
+    }
+
+    .tudo{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+
+
+    }
+    

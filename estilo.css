@@ -55,19 +55,19 @@ selector{
     */
 
     body{/*seletor de tag*/
-        background-color: #ffc107;
-        font-family:Arial;/*mudar a font*/
+        background-color: #20cf4c;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;/*mudar a font*/
     }
 
     #col1{/*seletor de id*/
-        background-color: white;
+        background-color: #3c9b54;
         width: 400px;
         text-align: center;/*centralizar a coluna ou obj*/
         padding-top: 10px ;
         padding-left: 38px;
         padding-right: 38px;
         padding-bottom: 38px;
-        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+        box-shadow: 12px 12px 4px 0px rgba(0,0,0,0.5);
         
 
     }
@@ -77,11 +77,14 @@ selector{
         margin-top: 14px;/*distanciar o tituilo*/
         margin-bottom: 12px;
         font-weight: bold;/*mudar o estilo da letra*/
+        color: #20cf4c;
+        
     }
 
     .texto{
         font-size: 18px;
         font-weight: bold;
+        color: #20cf4c;
     }
 
     .pedido{
@@ -96,18 +99,19 @@ selector{
         margin-bottom: 8px;
     }
     .campo-texto{
-        width: 100%;
+        width: 80%;
         font-size: 16px;
         color: 434343;
         padding: 7px 13px;
         margin-bottom: 16px;
         border: 1px solid #ced4da;
-        border-radius: 4px;
-        box-sizing: border-boxz;
+        border-radius: 6px;
+        box-sizing: border-box;
+        
     }
     .botao-reservar{
         width: 100%;
-        background-color: #ffc107;
+        background-color: #20cf4c;
         color: white;
         line-height: 150% ;
         padding-top: 6px ;
@@ -117,6 +121,7 @@ selector{
         text-transform: uppercase;
         font-size: 16px;
         margin-top: 16px;
+        box-shadow: 12px 12px 4px 0px rgba(0,0,0,0.5);
         
 
     }
@@ -129,10 +134,15 @@ selector{
         font-size: 36px;
         font-weight: bold;
         color: white;
+        text-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
 
     }
     .destaque{
-        color: #445EE5;
+        color: #fbff00;
+        font-weight: bold;
+        font-size: 36px;
+        
+        text-shadow: 0.1em 0.1em rgba(0,0,0,0.5);
 
     }
     .texto-oferta{
